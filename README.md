@@ -21,7 +21,7 @@ Each prints the PR URL immediately, then polls (~10–90s, real review time)
 and prints `BLOCK` or `ALLOW`. Open the printed URL to show the check and
 merge button matching what your terminal said.
 
-## One-time setup (already done on this machine)
+## One-time setup
 
 - `gh auth status` shows you logged in with `repo` scope.
 - `cicd-demo/.env` (gitignored, never pushed) has `LIVEREVIEW_API_KEY`,
